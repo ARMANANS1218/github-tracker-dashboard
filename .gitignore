@@ -15,8 +15,6 @@ logs/
 *.log
 
 # Local environment / secrets
-.env
-.env.*
 !.env.example
 
 # Editor / OS
@@ -29,3 +27,4 @@ logs/
 .codex
 .cache/
 coverage/
+config.bat

@@ -16,6 +16,8 @@
     "version": "node scripts/sync-version.js && conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md src/version.ts"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.2"
